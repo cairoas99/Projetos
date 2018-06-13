@@ -1,6 +1,6 @@
 from behave import *
 
-from ..pages.login_page import login_page
+from features.pages.login_page import login_page
 
 login_page = login_page()
 

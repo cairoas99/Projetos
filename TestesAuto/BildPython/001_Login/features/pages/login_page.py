@@ -1,7 +1,7 @@
 from time import sleep
 
 
-from ..element_map.login_map import login_map
+from features.element_map.login_map import login_map
 
 
 class login_page(login_map):
