@@ -1,0 +1,6 @@
+Feature: Buscar carros no google
+
+  Scenario: buscar carro Gol com sucesso
+    Given acesso o site de buscas "https://www.google.com/"
+    And busco pelo modelo "Voyage" de carro
+    Then clico para ver as imagens do carro

@@ -1,0 +1,49 @@
+/* get the required local files */
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.eot'); /* IE9 Compat Modes */
+  src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('roboto.woff') format('woff'), /* Modern Browsers */
+  url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* use the font */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+
+
+#fotocliente{
+    max-width: 600px;
+    max-height: 600px;
+    padding: 5px 25%;
+}
+
+#nome{
+    text-align: center;
+    font-size: 80px;
+}
+
+.btn{
+    position: relative;
+
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+
+    overflow: hidden;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+    background-color: #fff;
+    color: #fff;
+
+    transition: background-color .3s;
+
+    padding: 2px 5px;
+}

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Title</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Tem ceretza que deseja apagar {{ person.first_name }}?</h1>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <!--<button id="btn_apaga" type="submit"><img id="delete" title="Apagar" src="{% static "img/delete.svg" %}"/></button>-->
+            <input type="submit" id="submit-icon" value="apagar">
+        </form>
+    </div>
+</body>
+</html>

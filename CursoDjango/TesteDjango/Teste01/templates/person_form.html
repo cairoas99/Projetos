@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style_new.css' %}">
+    <title>Title</title>
+</head>
+<body>
+    <div id="form-main">
+        <div id="form-div">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form }}
+                <div class="submit">
+                    <input type="submit" value="SEND" id="button-blue"/>
+                    <div class="ease"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

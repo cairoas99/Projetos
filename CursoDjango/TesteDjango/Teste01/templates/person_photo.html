@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style_photo.css' %}">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="nome">{{ person.first_name }}</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <img title="Foto" id="fotocliente" src="/media/{{person.photo }} "/>
+
+        <br>
+        <button class="btn" type="submit"><img src="{% static "img/arrow_back_icon.png" %}"></button>
+    </form>
+
+</body>
+</html>
