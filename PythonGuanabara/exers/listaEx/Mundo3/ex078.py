@@ -1,14 +1,24 @@
-valores = list()
-
+valores = []
+maior = menor = 0
 for i in range(0, 5):
-    valores.append(float(input('Insira um numero')))
+    valores.append(int(input(f'Insira um numero na posição {i}: ')))
+    if i == 0:
+        maior = menor = valores[0]
+    else:
+        if valores[i] > maior:
+            maior = valores[i]
+        if valores[i] < menor:
+            menor = valores[i]
 
-mostra = valores[:]
-mostra.sort()
 
-print(mostra)
-print(valores)
+print('#' * 45)
+print(f'Você digitou os valores: {valores}')
 
-print(f'Maior valor inserido: {mostra[4]} na posição {valores.index(mostra[4])}')
-print(f'Menor valor inserido: {mostra[0]} na posição {valores.index(mostra[0])}')
+print(f'Maior valor inserido: {maior} nas posições: ', end='')
+for i, v in enumerate(valores):
+    if v == maior:
+        print(f'{i}..')
+print()
+
+print(f'Menor valor inserido: {menor} nas posições ')
 
