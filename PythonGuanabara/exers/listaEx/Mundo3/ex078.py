@@ -21,4 +21,3 @@ for i, v in enumerate(valores):
 print()
 
 print(f'Menor valor inserido: {menor} nas posições ')
-
