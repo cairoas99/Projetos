@@ -24,7 +24,11 @@
         <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex078.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
+<<<<<<< HEAD
               <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+=======
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+>>>>>>> d564714ad8116314deb25ac7f7e36d512be144aa
             </state>
           </provider>
         </entry>
@@ -60,9 +64,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/exers/listaEx/Mundo3/testes.py" />
-        <option value="$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py" />
         <option value="$PROJECT_DIR$/exers/listaEx/Mundo3/ex080.py" />
         <option value="$PROJECT_DIR$/exers/listaEx/Mundo3/ex078.py" />
+        <option value="$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py" />
       </list>
     </option>
   </component>
@@ -125,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex078">
+  <component name="RunManager" selected="Python.ex079">
     <configuration name="ex078" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonGuanabara" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,9 +210,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex079" />
         <item itemvalue="Python.ex078" />
         <item itemvalue="Python.ex080" />
-        <item itemvalue="Python.ex079" />
         <item itemvalue="Python.testes" />
       </list>
     </recent_temporary>
@@ -241,6 +245,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -257,6 +262,14 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+=======
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> d564714ad8116314deb25ac7f7e36d512be144aa
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -281,6 +294,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
+<<<<<<< HEAD
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex078.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/testes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex080.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex078.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/testes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex080.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+=======
+>>>>>>> d564714ad8116314deb25ac7f7e36d512be144aa
         </state>
       </provider>
     </entry>
@@ -344,27 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/testes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex080.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -453,6 +504,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -460,6 +512,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> d564714ad8116314deb25ac7f7e36d512be144aa
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1112966309/builtins.py" />
     <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex080.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -471,7 +525,18 @@
     <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex078.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
+<<<<<<< HEAD
           <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+=======
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exers/listaEx/Mundo3/ex079.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+>>>>>>> d564714ad8116314deb25ac7f7e36d512be144aa
         </state>
       </provider>
     </entry>
