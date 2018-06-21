@@ -17,7 +17,11 @@ print(f'Você digitou os valores: {valores}')
 print(f'Maior valor inserido: {maior} nas posições: ', end='')
 for i, v in enumerate(valores):
     if v == maior:
-        print(f'{i}..')
+        print(f'{i}..', end='')
 print()
 
-print(f'Menor valor inserido: {menor} nas posições ')
+print(f'Menor valor inserido: {menor} nas posições: ', end='')
+for i, v in enumerate(valores):
+    if v == menor:
+        print(f'{i}..',end='')
+print()
