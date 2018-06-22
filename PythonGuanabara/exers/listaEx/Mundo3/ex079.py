@@ -1,4 +1,4 @@
-valores = list()
+ valores = list()
 
 while True:
     aux = (float(input('Insira um valor: ')))
