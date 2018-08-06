@@ -1,0 +1,46 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style_person.css'%}">
+    <link rel="stylesheet" href="{% static 'main.css'%}">
+</head>
+<body>
+<div style="width: 500px; margin: 50px auto;">
+    <div class="table-wrapper">
+
+        <table class="alt">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Salario</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for person in persons %}
+                <tr>
+                    <td><a href="{% url 'person_update' person.id %}">{{ person.first_name }} {{ person.last_name }} </a></td>
+                    <td>{{ person.age }}</td>
+                    <td>{{ person.salary }}</td>
+                    <td><a href="{% url 'person_delete' person.id %}">Apagar</a> </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"></td>
+                    <td><a href="{% url 'person_new' %}">Novo</a> </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
